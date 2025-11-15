@@ -14,7 +14,7 @@ HF_API_KEY = "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"
 headers = {"Authorization": f"Bearer {HF_API_KEY}"}
 
 # YouTube API setup
-YOUTUBE_API_KEY = "AIzaSyAAkmrpT1UjF-8DL83nAfMO22EizlKamMc"
+# YOUTUBE_API_KEY = "AIzaSyAAkmrpT1UjF-8DL83nAfMO22EizlKamMc"
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
 # Mood-to-query mapping
